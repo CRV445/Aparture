@@ -1,0 +1,59 @@
+:root {
+	box-sizing: border-box;
+	font-size: 14px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+*+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+html,
+body {
+	font-family: 'Poppins';
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1.15;
+	margin: 0;
+	background-color: #000;
+	color: #fff;
+}
+
+h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+	font-family: inherit;
+	font-size: 100%;
+	line-height: 1.15;
+}
+
+/* Исправление стиля курсора кнопок увеличения и уменьшения в Chrome. */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+	height: auto;
+}
